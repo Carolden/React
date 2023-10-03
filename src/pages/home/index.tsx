@@ -18,9 +18,9 @@ export default function Home() {
           <ExternalLink link="https://github.com/Carolden" title="GitHub" />
           <ExternalLink link="#" title="Instagram" />
         </div>
+        <h2>Experiência</h2>
         <Experience job='Técnico de Informática' year='2019'/>
         <Experience job='Analista de Desenvolvimento de Sistemas' year='2023'/>
-
       </div>
     </main>
   );

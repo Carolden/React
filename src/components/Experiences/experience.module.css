@@ -2,8 +2,10 @@
 .box {
   border: 1px black solid;
   border-radius: 5px;
-  width: 150px;
+  max-width: 250px;
   margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .boxHeader {
@@ -14,11 +16,15 @@ align-items: center;
 }
 
 .job {
-  padding-left: 10px;
+  font-weight: 800;
 }
 
 .year {
-padding-right: 10px;
+  color: gray;
+}
+
+.description {
+
 }
 
 
