@@ -1,0 +1,24 @@
+
+.box {
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.boxHeader {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.job {
+  padding-left: 10px;
+}
+
+.year {
+padding-right: 10px;
+}
+
+
