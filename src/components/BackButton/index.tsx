@@ -1,16 +1,16 @@
+import Home from '@/pages';
 import styles from './index.module.css';
+import { Route } from 'react-router-dom';
 
 function handleClick() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-}
+    <Route component = { Home }  path="./../home/index.tsx" exact />
+    };
+
 
 export function BackButton() {
     return (
         <>
-            <button className={styles.button} onClick={handleClick}>Voltar para o topo</button>
+            <button className={styles.button} onClick={handleClick}>Voltar para o início</button>
         </>
     )
 }

@@ -1,0 +1,27 @@
+.socialMedia {
+    align-items: center;
+    display: flex;
+}
+
+.sideBar {
+    
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.projectLink {
+    width: 880px;
+    height: 480px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
